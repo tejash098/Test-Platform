@@ -1,0 +1,233 @@
+{
+  "python": [
+    {
+      "question": "What is Python?",
+      "options": ["A snake", "A programming language", "A database", "An OS"],
+      "correct": 1
+    },
+    {
+      "question": "Which keyword is used to define a function in Python?",
+      "options": ["func", "define", "def", "function"],
+      "correct": 2
+    },
+    {
+      "question": "Which data type is immutable?",
+      "options": ["List", "Set", "Dictionary", "Tuple"],
+      "correct": 3
+    },
+    {
+      "question": "What is the output of print(2 ** 3)?",
+      "options": ["6", "8", "9", "Error"],
+      "correct": 1
+    },
+    {
+      "question": "Which symbol is used for comments?",
+      "options": ["//", "#", "/* */", "<!-- -->"],
+      "correct": 1
+    },
+    {
+      "question": "Which function gets user input?",
+      "options": ["input()", "scan()", "read()", "get()"],
+      "correct": 0
+    },
+    {
+      "question": "Which keyword is used for loops?",
+      "options": ["loop", "repeat", "for", "iterate"],
+      "correct": 2
+    },
+    {
+      "question": "Which module is used for math operations?",
+      "options": ["math", "calc", "numbers", "random"],
+      "correct": 0
+    },
+    {
+      "question": "What does len() do?",
+      "options": [
+        "Adds items",
+        "Deletes items",
+        "Returns length",
+        "Sorts items"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which keyword handles exceptions?",
+      "options": ["catch", "handle", "try", "error"],
+      "correct": 2
+    }
+  ],
+
+  "js": [
+    {
+      "question": "Which keyword declares a variable?",
+      "options": ["int", "var", "string", "float"],
+      "correct": 1
+    },
+    {
+      "question": "Which symbol is used for comments?",
+      "options": ["<!-- -->", "#", "//", "**"],
+      "correct": 2
+    },
+    {
+      "question": "Which data type is NOT primitive?",
+      "options": ["Number", "String", "Object", "Boolean"],
+      "correct": 2
+    },
+    {
+      "question": "What does === check?",
+      "options": ["Value", "Type", "Value & Type", "None"],
+      "correct": 2
+    },
+    {
+      "question": "Which method converts JSON to object?",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.convert()",
+        "JSON.object()"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which keyword creates a constant?",
+      "options": ["var", "let", "const", "static"],
+      "correct": 2
+    },
+    {
+      "question": "Which loop is best when count is known?",
+      "options": ["while", "do-while", "for", "foreach"],
+      "correct": 2
+    },
+    {
+      "question": "What is NaN?",
+      "options": ["Null", "Undefined", "Not a Number", "Negative Number"],
+      "correct": 2
+    },
+    {
+      "question": "Which function delays execution?",
+      "options": ["wait()", "setTimeout()", "delay()", "pause()"],
+      "correct": 1
+    },
+    {
+      "question": "Which array method adds element at end?",
+      "options": ["push()", "pop()", "shift()", "unshift()"],
+      "correct": 0
+    }
+  ],
+
+  "react": [
+    {
+      "question": "What is JSX?",
+      "options": ["Java XML", "JavaScript XML", "JSON XML", "Java Syntax"],
+      "correct": 1
+    },
+    {
+      "question": "Which hook manages state?",
+      "options": ["useEffect", "useState", "useRef", "useContext"],
+      "correct": 1
+    },
+    {
+      "question": "React is a ___ library",
+      "options": ["Backend", "Database", "UI", "Testing"],
+      "correct": 2
+    },
+    {
+      "question": "Which prop is mandatory in lists?",
+      "options": ["id", "index", "key", "value"],
+      "correct": 2
+    },
+    {
+      "question": "Which hook runs after render?",
+      "options": ["useState", "useRef", "useEffect", "useMemo"],
+      "correct": 2
+    },
+    {
+      "question": "How do you pass data to components?",
+      "options": ["state", "props", "hooks", "context"],
+      "correct": 1
+    },
+    {
+      "question": "Which hook accesses DOM?",
+      "options": ["useEffect", "useRef", "useState", "useReducer"],
+      "correct": 1
+    },
+    {
+      "question": "Which method prevents re-render?",
+      "options": ["memo", "render", "prevent", "stop"],
+      "correct": 0
+    },
+    {
+      "question": "SPA stands for?",
+      "options": [
+        "Single Page App",
+        "Server Page App",
+        "Simple Page App",
+        "Static Page App"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which router is used for web?",
+      "options": [
+        "HashRouter",
+        "MemoryRouter",
+        "BrowserRouter",
+        "NativeRouter"
+      ],
+      "correct": 2
+    }
+  ],
+
+  "sql": [
+    {
+      "question": "Which command fetches data?",
+      "options": ["GET", "FETCH", "SELECT", "READ"],
+      "correct": 2
+    },
+    {
+      "question": "Which clause filters records?",
+      "options": ["WHERE", "ORDER BY", "GROUP BY", "HAVING"],
+      "correct": 0
+    },
+    {
+      "question": "Which command removes table?",
+      "options": ["DELETE", "DROP", "REMOVE", "CLEAR"],
+      "correct": 1
+    },
+    {
+      "question": "Primary key means?",
+      "options": ["Duplicate", "Null", "Unique", "Foreign"],
+      "correct": 2
+    },
+    {
+      "question": "Which command adds data?",
+      "options": ["ADD", "INSERT", "PUT", "UPDATE"],
+      "correct": 1
+    },
+    {
+      "question": "Which joins return matching rows?",
+      "options": ["LEFT", "RIGHT", "INNER", "FULL"],
+      "correct": 2
+    },
+    {
+      "question": "Which clause sorts data?",
+      "options": ["GROUP BY", "ORDER BY", "SORT", "FILTER"],
+      "correct": 1
+    },
+    {
+      "question": "Which function counts rows?",
+      "options": ["SUM()", "COUNT()", "TOTAL()", "ADD()"],
+      "correct": 1
+    },
+    {
+      "question": "Which command updates data?",
+      "options": ["CHANGE", "MODIFY", "UPDATE", "SET"],
+      "correct": 2
+    },
+    {
+      "question": "Foreign key is used to?",
+      "options": ["Delete table", "Join tables", "Sort data", "Create DB"],
+      "correct": 1
+    }
+  ]
+}
