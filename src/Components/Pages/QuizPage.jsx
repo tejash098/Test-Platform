@@ -5,7 +5,7 @@ import quizzes from "../jsondata/quizdata.json";
 const QuizPage = () => {
   const { quizId } = useParams();
 
-  const quizData = quizzes[quizId]; // 🔥 KEY CHANGE
+  const quizData = quizzes[quizId];
 
   if (!quizData) {
     return (
